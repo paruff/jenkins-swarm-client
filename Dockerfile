@@ -1,6 +1,6 @@
 FROM openjdk:8-jdk-alpine
 
-ENV JENKINS_SWARM_VERSION 2.2
+ENV JENKINS_SWARM_VERSION 3.13
 
 RUN apk add --no-cache wget docker openssh-client && \
 	mkdir -p /jenkins/wks && \
